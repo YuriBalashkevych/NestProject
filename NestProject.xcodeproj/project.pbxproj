@@ -1,0 +1,647 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		204130AA1FB8CC4D00D3B2A5 /* AuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 204130A91FB8CC4D00D3B2A5 /* AuthViewController.m */; };
+		204130AD1FB8D2E500D3B2A5 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 204130AC1FB8D2E500D3B2A5 /* MainViewController.m */; };
+		204130B01FB8D71200D3B2A5 /* AccessToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 204130AF1FB8D71200D3B2A5 /* AccessToken.m */; };
+		204130B31FB99C5100D3B2A5 /* Thermostat.m in Sources */ = {isa = PBXBuildFile; fileRef = 204130B21FB99C5100D3B2A5 /* Thermostat.m */; };
+		204130B61FB9A86600D3B2A5 /* NestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 204130B51FB9A86600D3B2A5 /* NestManager.m */; };
+		206912541FB8B7EA0074C11A /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 206912531FB8B7EA0074C11A /* Constants.m */; };
+		206912571FB8BCAE0074C11A /* NetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 206912561FB8BCAE0074C11A /* NetworkManager.m */; };
+		2069125D1FB8CBB70074C11A /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2069125C1FB8CBB70074C11A /* WebKit.framework */; };
+		20D2D8811FB8A17600B68F9D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D2D8801FB8A17600B68F9D /* AppDelegate.m */; };
+		20D2D8871FB8A17600B68F9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20D2D8851FB8A17600B68F9D /* Main.storyboard */; };
+		20D2D8891FB8A17600B68F9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20D2D8881FB8A17600B68F9D /* Assets.xcassets */; };
+		20D2D88C1FB8A17600B68F9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20D2D88A1FB8A17600B68F9D /* LaunchScreen.storyboard */; };
+		20D2D88F1FB8A17600B68F9D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D2D88E1FB8A17600B68F9D /* main.m */; };
+		20D2D8991FB8A17600B68F9D /* NestProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D2D8981FB8A17600B68F9D /* NestProjectTests.m */; };
+		20D2D8A41FB8A17600B68F9D /* NestProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D2D8A31FB8A17600B68F9D /* NestProjectUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		20D2D8951FB8A17600B68F9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20D2D8741FB8A17600B68F9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20D2D87B1FB8A17600B68F9D;
+			remoteInfo = NestProject;
+		};
+		20D2D8A01FB8A17600B68F9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 20D2D8741FB8A17600B68F9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20D2D87B1FB8A17600B68F9D;
+			remoteInfo = NestProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		204130A81FB8CC4D00D3B2A5 /* AuthViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AuthViewController.h; sourceTree = "<group>"; };
+		204130A91FB8CC4D00D3B2A5 /* AuthViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AuthViewController.m; sourceTree = "<group>"; };
+		204130AB1FB8D2E500D3B2A5 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		204130AC1FB8D2E500D3B2A5 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		204130AE1FB8D71200D3B2A5 /* AccessToken.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccessToken.h; sourceTree = "<group>"; };
+		204130AF1FB8D71200D3B2A5 /* AccessToken.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccessToken.m; sourceTree = "<group>"; };
+		204130B11FB99C5100D3B2A5 /* Thermostat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Thermostat.h; sourceTree = "<group>"; };
+		204130B21FB99C5100D3B2A5 /* Thermostat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Thermostat.m; sourceTree = "<group>"; };
+		204130B41FB9A86600D3B2A5 /* NestManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NestManager.h; sourceTree = "<group>"; };
+		204130B51FB9A86600D3B2A5 /* NestManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NestManager.m; sourceTree = "<group>"; };
+		206912521FB8B7EA0074C11A /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		206912531FB8B7EA0074C11A /* Constants.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		206912551FB8BCAE0074C11A /* NetworkManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkManager.h; sourceTree = "<group>"; };
+		206912561FB8BCAE0074C11A /* NetworkManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkManager.m; sourceTree = "<group>"; };
+		2069125C1FB8CBB70074C11A /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		20D2D87C1FB8A17600B68F9D /* NestProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NestProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20D2D87F1FB8A17600B68F9D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		20D2D8801FB8A17600B68F9D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		20D2D8861FB8A17600B68F9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		20D2D8881FB8A17600B68F9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20D2D88B1FB8A17600B68F9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		20D2D88D1FB8A17600B68F9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20D2D88E1FB8A17600B68F9D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		20D2D8941FB8A17600B68F9D /* NestProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NestProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20D2D8981FB8A17600B68F9D /* NestProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NestProjectTests.m; sourceTree = "<group>"; };
+		20D2D89A1FB8A17600B68F9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20D2D89F1FB8A17600B68F9D /* NestProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NestProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		20D2D8A31FB8A17600B68F9D /* NestProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NestProjectUITests.m; sourceTree = "<group>"; };
+		20D2D8A51FB8A17600B68F9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20D2D8791FB8A17600B68F9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2069125D1FB8CBB70074C11A /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20D2D8911FB8A17600B68F9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20D2D89C1FB8A17600B68F9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		206912511FB8B5EE0074C11A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				20D2D88D1FB8A17600B68F9D /* Info.plist */,
+				20D2D88E1FB8A17600B68F9D /* main.m */,
+				20D2D8881FB8A17600B68F9D /* Assets.xcassets */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2069125B1FB8CBB70074C11A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2069125C1FB8CBB70074C11A /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		20D2D8731FB8A17600B68F9D = {
+			isa = PBXGroup;
+			children = (
+				20D2D87E1FB8A17600B68F9D /* NestProject */,
+				20D2D8971FB8A17600B68F9D /* NestProjectTests */,
+				20D2D8A21FB8A17600B68F9D /* NestProjectUITests */,
+				20D2D87D1FB8A17600B68F9D /* Products */,
+				2069125B1FB8CBB70074C11A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		20D2D87D1FB8A17600B68F9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20D2D87C1FB8A17600B68F9D /* NestProject.app */,
+				20D2D8941FB8A17600B68F9D /* NestProjectTests.xctest */,
+				20D2D89F1FB8A17600B68F9D /* NestProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20D2D87E1FB8A17600B68F9D /* NestProject */ = {
+			isa = PBXGroup;
+			children = (
+				20D2D87F1FB8A17600B68F9D /* AppDelegate.h */,
+				20D2D8801FB8A17600B68F9D /* AppDelegate.m */,
+				20D2D8B11FB8B57300B68F9D /* Storyboards */,
+				20D2D8B21FB8B57F00B68F9D /* ViewControllers */,
+				20D2D8B31FB8B58D00B68F9D /* Models */,
+				20D2D8B41FB8B59300B68F9D /* Managers */,
+				20D2D8B51FB8B59800B68F9D /* Helpers */,
+				206912511FB8B5EE0074C11A /* Supporting Files */,
+			);
+			path = NestProject;
+			sourceTree = "<group>";
+		};
+		20D2D8971FB8A17600B68F9D /* NestProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				20D2D8981FB8A17600B68F9D /* NestProjectTests.m */,
+				20D2D89A1FB8A17600B68F9D /* Info.plist */,
+			);
+			path = NestProjectTests;
+			sourceTree = "<group>";
+		};
+		20D2D8A21FB8A17600B68F9D /* NestProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				20D2D8A31FB8A17600B68F9D /* NestProjectUITests.m */,
+				20D2D8A51FB8A17600B68F9D /* Info.plist */,
+			);
+			path = NestProjectUITests;
+			sourceTree = "<group>";
+		};
+		20D2D8B11FB8B57300B68F9D /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				20D2D8851FB8A17600B68F9D /* Main.storyboard */,
+				20D2D88A1FB8A17600B68F9D /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		20D2D8B21FB8B57F00B68F9D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				204130A81FB8CC4D00D3B2A5 /* AuthViewController.h */,
+				204130A91FB8CC4D00D3B2A5 /* AuthViewController.m */,
+				204130AB1FB8D2E500D3B2A5 /* MainViewController.h */,
+				204130AC1FB8D2E500D3B2A5 /* MainViewController.m */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		20D2D8B31FB8B58D00B68F9D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				204130AE1FB8D71200D3B2A5 /* AccessToken.h */,
+				204130AF1FB8D71200D3B2A5 /* AccessToken.m */,
+				204130B11FB99C5100D3B2A5 /* Thermostat.h */,
+				204130B21FB99C5100D3B2A5 /* Thermostat.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		20D2D8B41FB8B59300B68F9D /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				206912551FB8BCAE0074C11A /* NetworkManager.h */,
+				206912561FB8BCAE0074C11A /* NetworkManager.m */,
+				204130B41FB9A86600D3B2A5 /* NestManager.h */,
+				204130B51FB9A86600D3B2A5 /* NestManager.m */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		20D2D8B51FB8B59800B68F9D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				206912521FB8B7EA0074C11A /* Constants.h */,
+				206912531FB8B7EA0074C11A /* Constants.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20D2D87B1FB8A17600B68F9D /* NestProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20D2D8A81FB8A17600B68F9D /* Build configuration list for PBXNativeTarget "NestProject" */;
+			buildPhases = (
+				20D2D8781FB8A17600B68F9D /* Sources */,
+				20D2D8791FB8A17600B68F9D /* Frameworks */,
+				20D2D87A1FB8A17600B68F9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NestProject;
+			productName = NestProject;
+			productReference = 20D2D87C1FB8A17600B68F9D /* NestProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		20D2D8931FB8A17600B68F9D /* NestProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20D2D8AB1FB8A17600B68F9D /* Build configuration list for PBXNativeTarget "NestProjectTests" */;
+			buildPhases = (
+				20D2D8901FB8A17600B68F9D /* Sources */,
+				20D2D8911FB8A17600B68F9D /* Frameworks */,
+				20D2D8921FB8A17600B68F9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20D2D8961FB8A17600B68F9D /* PBXTargetDependency */,
+			);
+			name = NestProjectTests;
+			productName = NestProjectTests;
+			productReference = 20D2D8941FB8A17600B68F9D /* NestProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		20D2D89E1FB8A17600B68F9D /* NestProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20D2D8AE1FB8A17600B68F9D /* Build configuration list for PBXNativeTarget "NestProjectUITests" */;
+			buildPhases = (
+				20D2D89B1FB8A17600B68F9D /* Sources */,
+				20D2D89C1FB8A17600B68F9D /* Frameworks */,
+				20D2D89D1FB8A17600B68F9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				20D2D8A11FB8A17600B68F9D /* PBXTargetDependency */,
+			);
+			name = NestProjectUITests;
+			productName = NestProjectUITests;
+			productReference = 20D2D89F1FB8A17600B68F9D /* NestProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20D2D8741FB8A17600B68F9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Yurii Balashkevych";
+				TargetAttributes = {
+					20D2D87B1FB8A17600B68F9D = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					20D2D8931FB8A17600B68F9D = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 20D2D87B1FB8A17600B68F9D;
+					};
+					20D2D89E1FB8A17600B68F9D = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 20D2D87B1FB8A17600B68F9D;
+					};
+				};
+			};
+			buildConfigurationList = 20D2D8771FB8A17600B68F9D /* Build configuration list for PBXProject "NestProject" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20D2D8731FB8A17600B68F9D;
+			productRefGroup = 20D2D87D1FB8A17600B68F9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20D2D87B1FB8A17600B68F9D /* NestProject */,
+				20D2D8931FB8A17600B68F9D /* NestProjectTests */,
+				20D2D89E1FB8A17600B68F9D /* NestProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20D2D87A1FB8A17600B68F9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20D2D88C1FB8A17600B68F9D /* LaunchScreen.storyboard in Resources */,
+				20D2D8891FB8A17600B68F9D /* Assets.xcassets in Resources */,
+				20D2D8871FB8A17600B68F9D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20D2D8921FB8A17600B68F9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20D2D89D1FB8A17600B68F9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20D2D8781FB8A17600B68F9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20D2D88F1FB8A17600B68F9D /* main.m in Sources */,
+				204130AD1FB8D2E500D3B2A5 /* MainViewController.m in Sources */,
+				204130B31FB99C5100D3B2A5 /* Thermostat.m in Sources */,
+				204130B61FB9A86600D3B2A5 /* NestManager.m in Sources */,
+				204130AA1FB8CC4D00D3B2A5 /* AuthViewController.m in Sources */,
+				204130B01FB8D71200D3B2A5 /* AccessToken.m in Sources */,
+				20D2D8811FB8A17600B68F9D /* AppDelegate.m in Sources */,
+				206912571FB8BCAE0074C11A /* NetworkManager.m in Sources */,
+				206912541FB8B7EA0074C11A /* Constants.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20D2D8901FB8A17600B68F9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20D2D8991FB8A17600B68F9D /* NestProjectTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20D2D89B1FB8A17600B68F9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				20D2D8A41FB8A17600B68F9D /* NestProjectUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		20D2D8961FB8A17600B68F9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20D2D87B1FB8A17600B68F9D /* NestProject */;
+			targetProxy = 20D2D8951FB8A17600B68F9D /* PBXContainerItemProxy */;
+		};
+		20D2D8A11FB8A17600B68F9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 20D2D87B1FB8A17600B68F9D /* NestProject */;
+			targetProxy = 20D2D8A01FB8A17600B68F9D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		20D2D8851FB8A17600B68F9D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20D2D8861FB8A17600B68F9D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		20D2D88A1FB8A17600B68F9D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20D2D88B1FB8A17600B68F9D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		20D2D8A61FB8A17600B68F9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		20D2D8A71FB8A17600B68F9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20D2D8A91FB8A17600B68F9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/NestProject/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YB.NestProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		20D2D8AA1FB8A17600B68F9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "$(SRCROOT)/NestProject/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YB.NestProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		20D2D8AC1FB8A17600B68F9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NestProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YB.NestProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NestProject.app/NestProject";
+			};
+			name = Debug;
+		};
+		20D2D8AD1FB8A17600B68F9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NestProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YB.NestProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NestProject.app/NestProject";
+			};
+			name = Release;
+		};
+		20D2D8AF1FB8A17600B68F9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NestProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YB.NestProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NestProject;
+			};
+			name = Debug;
+		};
+		20D2D8B01FB8A17600B68F9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NestProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = YB.NestProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NestProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20D2D8771FB8A17600B68F9D /* Build configuration list for PBXProject "NestProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20D2D8A61FB8A17600B68F9D /* Debug */,
+				20D2D8A71FB8A17600B68F9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20D2D8A81FB8A17600B68F9D /* Build configuration list for PBXNativeTarget "NestProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20D2D8A91FB8A17600B68F9D /* Debug */,
+				20D2D8AA1FB8A17600B68F9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20D2D8AB1FB8A17600B68F9D /* Build configuration list for PBXNativeTarget "NestProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20D2D8AC1FB8A17600B68F9D /* Debug */,
+				20D2D8AD1FB8A17600B68F9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20D2D8AE1FB8A17600B68F9D /* Build configuration list for PBXNativeTarget "NestProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20D2D8AF1FB8A17600B68F9D /* Debug */,
+				20D2D8B01FB8A17600B68F9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20D2D8741FB8A17600B68F9D /* Project object */;
+}
